@@ -481,12 +481,41 @@ Removes the skill. **Your wiki data is never touched.**
 
 ## Credits
 
-Built by [Apexlify](https://github.com/Apexlify).
+<div align="center">
 
-Special thanks to:
-- [Claude Code](https://claude.ai/claude-code) by Anthropic -- the AI backbone powering wiki compilation
-- [Obsidian](https://obsidian.md) -- the perfect viewer for interconnected markdown
-- The open-source [Claude Code skills community](https://github.com/topics/claude-code-skill) -- for setting the standard
+<br/>
+
+**Built by [Apexlify](https://github.com/Apexlify)**
+
+<br/>
+
+<table>
+<tr>
+<td align="center" width="33%">
+<a href="https://claude.ai/claude-code">
+<img src="https://img.shields.io/badge/Claude_Code-Anthropic-53a8b6?style=for-the-badge&labelColor=1a1a2e" alt="Claude Code"/>
+</a>
+<br/><br/>
+<sub>The AI backbone powering<br/>wiki compilation</sub>
+</td>
+<td align="center" width="33%">
+<a href="https://obsidian.md">
+<img src="https://img.shields.io/badge/Obsidian-Knowledge_OS-7c3aed?style=for-the-badge&labelColor=1a1a2e" alt="Obsidian"/>
+</a>
+<br/><br/>
+<sub>The perfect viewer for<br/>interconnected markdown</sub>
+</td>
+<td align="center" width="33%">
+<a href="https://github.com/topics/claude-code-skill">
+<img src="https://img.shields.io/badge/Skills_Community-Open_Source-10b981?style=for-the-badge&labelColor=1a1a2e" alt="Community"/>
+</a>
+<br/><br/>
+<sub>The open-source community<br/>that set the standard</sub>
+</td>
+</tr>
+</table>
+
+</div>
 
 <br/>
 
@@ -497,6 +526,8 @@ Special thanks to:
 <br/>
 
 **If Vaultweaver is useful, [give it a star](https://github.com/Apexlify/vaultweaver).**
+
+<br/>
 
 *Built with Claude Code. Viewed in Obsidian. Knowledge that compounds.*
 
