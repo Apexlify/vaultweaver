@@ -483,6 +483,11 @@ Removes the skill. **Your wiki data is never touched.**
 
 Built by [Apexlify](https://github.com/Apexlify).
 
+Special thanks to:
+- [Claude Code](https://claude.ai/claude-code) by Anthropic -- the AI backbone powering wiki compilation
+- [Obsidian](https://obsidian.md) -- the perfect viewer for interconnected markdown
+- The open-source [Claude Code skills community](https://github.com/topics/claude-code-skill) -- for setting the standard
+
 <br/>
 
 ---
