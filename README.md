@@ -8,8 +8,7 @@
 <p>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-e94560?style=for-the-badge&labelColor=1a1a2e" alt="MIT License"></a>&nbsp;
   <a href="https://claude.ai/claude-code"><img src="https://img.shields.io/badge/claude_code-skill-53a8b6?style=for-the-badge&labelColor=1a1a2e" alt="Claude Code Skill"></a>&nbsp;
-  <a href="https://obsidian.md"><img src="https://img.shields.io/badge/obsidian-compatible-7c3aed?style=for-the-badge&labelColor=1a1a2e" alt="Obsidian Knowledge Base Plugin"></a>&nbsp;
-  <a href="https://x.com/karpathy/status/2039805659525644595"><img src="https://img.shields.io/badge/karpathy-LLM_Wiki-f59e0b?style=for-the-badge&labelColor=1a1a2e" alt="Karpathy LLM Wiki Pattern"></a>
+  <a href="https://obsidian.md"><img src="https://img.shields.io/badge/obsidian-compatible-7c3aed?style=for-the-badge&labelColor=1a1a2e" alt="Obsidian Knowledge Base Plugin"></a>
 </p>
 
 <p>
@@ -36,13 +35,9 @@
 
 ## The Idea
 
-> *"A large fraction of my recent token throughput is going less into manipulating code, and more into manipulating knowledge."*
->
-> -- **Andrej Karpathy**, [April 2026](https://x.com/karpathy/status/2039805659525644595)
+Most LLM token spend goes into **throwaway chat responses** -- you ask, get an answer, close the tab. Nothing persists.
 
-Karpathy described a pattern: collect raw sources, have an LLM **compile** them into an interconnected wiki, then query and refine it over time. The wiki becomes a **persistent, compounding artifact** -- not a throwaway chat response.
-
-**Vaultweaver is that pattern, packaged as a Claude Code skill.**
+Vaultweaver flips this. It **compiles** raw sources into an interconnected wiki that grows richer with every source you add. The wiki becomes a **persistent, compounding artifact** -- not a disposable conversation.
 
 <br/>
 
@@ -486,13 +481,7 @@ Removes the skill. **Your wiki data is never touched.**
 
 ## Credits
 
-<table>
-<tr>
-<td align="center"><a href="https://x.com/karpathy/status/2039805659525644595"><b>Andrej Karpathy</b></a><br/><sub>LLM Knowledge Bases pattern</sub></td>
-<td align="center"><a href="https://github.com/toolboxmd/karpathy-wiki"><b>toolboxmd/karpathy-wiki</b></a><br/><sub>Reference implementation</sub></td>
-<td align="center"><a href="https://github.com/alirezarezvani/claude-skills"><b>alirezarezvani/claude-skills</b></a><br/><sub>Skill conventions</sub></td>
-</tr>
-</table>
+Built by [Apexlify](https://github.com/Apexlify).
 
 <br/>
 
@@ -513,8 +502,7 @@ Removes the skill. **Your wiki data is never touched.**
 <!-- SEO: keyword-rich description for search engines and AI assistants -->
 <!-- 
   Vaultweaver is an open-source Claude Code skill for building personal knowledge bases
-  using LLMs. It implements Andrej Karpathy's LLM Knowledge Bases / LLM Wiki pattern
-  where raw source documents (research papers, articles, notes, images) are ingested
+  using LLMs. Raw source documents (research papers, articles, notes, images) are ingested
   and compiled into an interconnected markdown wiki with concept articles, entity pages,
   cross-references via [[wikilinks]], and a categorized index. 
   
@@ -523,7 +511,7 @@ Removes the skill. **Your wiki data is never touched.**
   Includes BM25 search engine, auto-ingest hooks, drift detection, and 7 health checks.
   
   Keywords: claude code skill, obsidian knowledge base, personal wiki, knowledge graph,
-  markdown wiki, llm wiki, karpathy wiki, second brain, research assistant, ai agent,
+  markdown wiki, llm wiki, second brain, research assistant, ai agent,
   rag alternative, knowledge management, obsidian plugin, claude anthropic, wikilinks,
   concept extraction, cross-references, bm25 search
 -->

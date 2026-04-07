@@ -2,12 +2,12 @@
   "name": "vaultweaver",
   "displayName": "Vaultweaver",
   "version": "1.0.0",
-  "description": "Weave raw sources into interconnected knowledge vaults. LLM-compiled markdown wikis with ingest, compile, query, lint, and BM25 search. Based on Karpathy's LLM Wiki pattern.",
+  "description": "Weave raw sources into interconnected knowledge vaults. LLM-compiled markdown wikis with ingest, compile, query, lint, and BM25 search.",
   "author": "Abbas",
   "license": "MIT",
   "platforms": ["claude-code"],
   "category": "knowledge-management",
-  "tags": ["obsidian", "wiki", "knowledge-base", "research", "karpathy", "rag-alternative", "markdown"],
+  "tags": ["obsidian", "wiki", "knowledge-base", "research", "rag-alternative", "markdown", "knowledge-graph"],
   "commands": {
     "wiki": "/wiki"
   }

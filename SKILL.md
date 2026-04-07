@@ -1,6 +1,6 @@
 ---
 name: vaultweaver
-description: "Build and maintain a persistent knowledge base — a compounding vault of interlinked markdown files based on Karpathy's LLM Wiki pattern. TRIGGER when: user adds sources to raw/ (articles, papers, notes, images), pastes content to ingest, says 'add to wiki' or 'ingest this', asks synthesis questions ('what do we know about X', 'compare A and B', 'summarize research on Y'), requests health checks ('lint the wiki', 'find gaps'), or runs /wiki commands. Also triggers when raw/ has unprocessed files. DO NOT TRIGGER when: user asks about project source code or architecture, wants simple file operations, or asks general questions unrelated to a knowledge base."
+description: "Build and maintain a persistent knowledge base — a compounding vault of interlinked markdown files. TRIGGER when: user adds sources to raw/ (articles, papers, notes, images), pastes content to ingest, says 'add to wiki' or 'ingest this', asks synthesis questions ('what do we know about X', 'compare A and B', 'summarize research on Y'), requests health checks ('lint the wiki', 'find gaps'), or runs /wiki commands. Also triggers when raw/ has unprocessed files. DO NOT TRIGGER when: user asks about project source code or architecture, wants simple file operations, or asks general questions unrelated to a knowledge base."
 ---
 
 # Vaultweaver
