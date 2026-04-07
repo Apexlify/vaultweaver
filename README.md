@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.svg" alt="Vaultweaver" width="900"/>
+<img src="assets/banner.svg" alt="Vaultweaver — LLM Knowledge Base skill for Claude Code. Drop files, get a knowledge graph. Obsidian compatible." width="900"/>
 
 <br/>
 <br/>
@@ -8,8 +8,14 @@
 <p>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-e94560?style=for-the-badge&labelColor=1a1a2e" alt="MIT License"></a>&nbsp;
   <a href="https://claude.ai/claude-code"><img src="https://img.shields.io/badge/claude_code-skill-53a8b6?style=for-the-badge&labelColor=1a1a2e" alt="Claude Code Skill"></a>&nbsp;
-  <a href="https://obsidian.md"><img src="https://img.shields.io/badge/obsidian-compatible-7c3aed?style=for-the-badge&labelColor=1a1a2e" alt="Obsidian Compatible"></a>&nbsp;
-  <a href="https://x.com/karpathy/status/2039805659525644595"><img src="https://img.shields.io/badge/karpathy-LLM_Wiki-f59e0b?style=for-the-badge&labelColor=1a1a2e" alt="Karpathy LLM Wiki"></a>
+  <a href="https://obsidian.md"><img src="https://img.shields.io/badge/obsidian-compatible-7c3aed?style=for-the-badge&labelColor=1a1a2e" alt="Obsidian Knowledge Base Plugin"></a>&nbsp;
+  <a href="https://x.com/karpathy/status/2039805659525644595"><img src="https://img.shields.io/badge/karpathy-LLM_Wiki-f59e0b?style=for-the-badge&labelColor=1a1a2e" alt="Karpathy LLM Wiki Pattern"></a>
+</p>
+
+<p>
+  <a href="https://github.com/Apexlify/vaultweaver/releases"><img src="https://img.shields.io/github/v/release/Apexlify/vaultweaver?style=flat-square&color=10b981&label=release" alt="Latest Release"></a>&nbsp;
+  <a href="https://github.com/Apexlify/vaultweaver/stargazers"><img src="https://img.shields.io/github/stars/Apexlify/vaultweaver?style=flat-square&color=f59e0b" alt="GitHub Stars"></a>&nbsp;
+  <a href="https://github.com/Apexlify/vaultweaver/issues"><img src="https://img.shields.io/github/issues/Apexlify/vaultweaver?style=flat-square&color=53a8b6" alt="Issues"></a>
 </p>
 
 <br/>
@@ -74,8 +80,8 @@ Karpathy described a pattern: collect raw sources, have an LLM **compile** them 
 ## Install
 
 ```bash
-git clone https://github.com/Apexlify/cursor-Workspace.git
-cd cursor-Workspace/vaultweaver
+git clone https://github.com/Apexlify/vaultweaver.git
+cd vaultweaver
 bash install.sh
 ```
 
@@ -496,10 +502,28 @@ Removes the skill. **Your wiki data is never touched.**
 
 <br/>
 
-**If this is useful, give it a star.**
+**If Vaultweaver is useful, [give it a star](https://github.com/Apexlify/vaultweaver).**
 
 *Built with Claude Code. Viewed in Obsidian. Knowledge that compounds.*
 
 <br/>
 
 </div>
+
+<!-- SEO: keyword-rich description for search engines and AI assistants -->
+<!-- 
+  Vaultweaver is an open-source Claude Code skill for building personal knowledge bases
+  using LLMs. It implements Andrej Karpathy's LLM Knowledge Bases / LLM Wiki pattern
+  where raw source documents (research papers, articles, notes, images) are ingested
+  and compiled into an interconnected markdown wiki with concept articles, entity pages,
+  cross-references via [[wikilinks]], and a categorized index. 
+  
+  Alternative to RAG (Retrieval-Augmented Generation) for personal research at scale
+  of 10-500 sources. Works with Obsidian for graph view, backlinks, and visual browsing.
+  Includes BM25 search engine, auto-ingest hooks, drift detection, and 7 health checks.
+  
+  Keywords: claude code skill, obsidian knowledge base, personal wiki, knowledge graph,
+  markdown wiki, llm wiki, karpathy wiki, second brain, research assistant, ai agent,
+  rag alternative, knowledge management, obsidian plugin, claude anthropic, wikilinks,
+  concept extraction, cross-references, bm25 search
+-->
